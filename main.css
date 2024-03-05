@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    gap: 0.25rem;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: #bbbbbb;
+    font-family: monospace;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
